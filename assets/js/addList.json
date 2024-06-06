@@ -1,0 +1,12 @@
+[
+    {
+        "tokenName" : "MATIC",
+        "tokenImage" : "./assets/js/img/matic.png"
+       
+    },
+    {
+        "tokenName" : "USDT",
+        "tokenImage" : "./assets/js/img/usdt.png"
+       
+    }
+]
