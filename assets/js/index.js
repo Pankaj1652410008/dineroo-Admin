@@ -178,3 +178,14 @@ function copyTextDash() {
     });
   
 }
+
+function startSale() {
+  document.getElementById("status").innerHTML = "Live";
+  document.getElementById("status").classList.add("green_status")
+  document.getElementById("status").classList.remove("status_c_red")
+};
+function stopSale() {
+  document.getElementById("status").innerHTML = "Stop";
+  document.getElementById("status").classList.remove("green_status")
+  document.getElementById("status").classList.add("status_c_red")
+};

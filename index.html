@@ -85,10 +85,13 @@
   <section class="main bg-vpn-bg-black" style="padding-top: 0;">
     <div class="container ">
       <div class="row sales_button">
+        <div class="sale_status">
+          <h3>Sale Status : <span  id="status" class="status_c_red">Stop</span></h3>
+        </div>
         <div class="sals" >
 
-          <button>Start sale</button>
-          <button>Stop sale</button>
+          <button onclick="startSale()">Start sale</button>
+          <button onclick="stopSale()">Stop sale</button>
         </div>
       <div class="remove_rm">
         <p>Remove remaining tokens from contract</p>
@@ -133,13 +136,13 @@
               <input type="text" placeholder="Update matic price">
               <button>Update</button>
             </div>
-            <div class="affiliate">
-              <input type="text" placeholder="Current matic price">
-              <button>Remove</button>
+            <div class="affiliate lbl">
+              <label >Current Matic Price</label>
+              <label >$0.87</label>
             </div>
-            <div class="affiliate">
-              <input type="text" placeholder="Current phase ">
-              <button>Check</button>
+            <div class="affiliate lbl">
+              <label >Current Phase</label>
+              <label >Phase 1</label>
             </div>
           </div>
         </div>
